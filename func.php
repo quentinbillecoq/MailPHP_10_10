@@ -36,5 +36,3 @@ function sendMailArka($sujet="",$message="",$from="",$to=""){
         return false;
     }
 }
-
-echo json_encode(sendMailArka("Sujet test","Message de test","mail@hostark.fr","web-al8t7@mail-tester.com"));
